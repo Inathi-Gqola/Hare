@@ -2,7 +2,7 @@
 
 namespace Hare.Consumer
 {
-    class Program
+    class Consumer
     {
         static void Main(string[] args)
         {
