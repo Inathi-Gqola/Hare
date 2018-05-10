@@ -6,7 +6,6 @@ namespace Hare.Publisher
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
