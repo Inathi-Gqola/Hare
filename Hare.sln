@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hare.Publisher", "Hare.Publisher\Hare.Publisher.csproj", "{795DDA92-2E13-41DF-8524-E7DC46257172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hare.Consumer", "Hare.Consumer\Hare.Consumer.csproj", "{0B87AD0A-03D3-45A1-A3A2-86BE0FAF16C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hare.Consumer", "Hare.Consumer\Hare.Consumer.csproj", "{0B87AD0A-03D3-45A1-A3A2-86BE0FAF16C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hare.Shared", "Hare.Shared\Hare.Shared.csproj", "{CCA515BB-CFBA-4986-A038-95EF575975DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hare.Tests", "Hare.Tests\Hare.Tests.csproj", "{323A9F65-8D35-4745-9700-FFDEF114B869}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{0B87AD0A-03D3-45A1-A3A2-86BE0FAF16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B87AD0A-03D3-45A1-A3A2-86BE0FAF16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B87AD0A-03D3-45A1-A3A2-86BE0FAF16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA515BB-CFBA-4986-A038-95EF575975DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA515BB-CFBA-4986-A038-95EF575975DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA515BB-CFBA-4986-A038-95EF575975DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA515BB-CFBA-4986-A038-95EF575975DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323A9F65-8D35-4745-9700-FFDEF114B869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323A9F65-8D35-4745-9700-FFDEF114B869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323A9F65-8D35-4745-9700-FFDEF114B869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323A9F65-8D35-4745-9700-FFDEF114B869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
